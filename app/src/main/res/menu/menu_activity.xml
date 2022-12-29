@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/wa"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Item"
+        android:visible="true" />
+    <item
+        android:id="@+id/sms"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="SMS"
+        android:visible="true" />
+    <item
+        android:id="@+id/loc"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="LOC"
+        android:visible="true"/>
+    <item
+        android:id="@+id/logout"
+        android:enabled="true"
+        android:title="LogOut"
+        android:visible="true"/>
+    <item
+        android:id="@+id/update"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_account_circle"
+        android:title="Item"
+        android:visible="true"
+        app:showAsAction="always"/>
+</menu>
